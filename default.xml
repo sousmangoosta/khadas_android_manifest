@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
+  <remote fetch="https://github.com/sousmangoosta/" name="sousmangoosta"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
   <default remote="github" revision="refs/tags/Vims-Pie-V200918" sync-c="true" sync-j="4"/>
   
-  <project name="android_device_khadas" path="device/khadas"  revision="8cfefdefdaa508a419371b7b2f2ce6c9dbef5090" />
+  <project name="android_device_khadas" remote="sousmangoosta" path="device/khadas"  revision="970d06362b6b7ac6d2f01771a97864e417fbb7c3" />
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/common/apps/IrBlaster"  revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" />
   <project name="android_vendor_amlogic_external_dvb" path="vendor/amlogic/common/external/dvb"  revision="f76cf85efd2c4fd462ed85ace3ebfed2ad54fc38" />
   <project name="linux" path="common"  revision="b0e0d3314f5e06edcc00dff8cdceec5cd223f2d7" />
