@@ -6,6 +6,7 @@
   <default remote="github" revision="refs/tags/Vims-Pie-V200918" sync-c="true" sync-j="4"/>
   
   <project name="android_device_khadas" remote="sousmangoosta" path="device/khadas"  revision="970d06362b6b7ac6d2f01771a97864e417fbb7c3" />
+  <project name="device/google/atv" remote="aosp" path="device/google/atv" revision="901e95ac968d961ddbbf47bd2e0ec71ccda1711b" upstream="refs/tags/android-9.0.0_r3" />
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/common/apps/IrBlaster"  revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" />
   <project name="android_vendor_amlogic_external_dvb" path="vendor/amlogic/common/external/dvb"  revision="f76cf85efd2c4fd462ed85ace3ebfed2ad54fc38" />
   <project name="linux" path="common"  revision="b0e0d3314f5e06edcc00dff8cdceec5cd223f2d7" />
